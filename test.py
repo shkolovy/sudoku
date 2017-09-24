@@ -24,13 +24,13 @@ from timeit import default_timer
 
 
 start = default_timer()
-res = ss.solve_sudoku(ar)
+res = ss.solve(ar)
 end = default_timer()
 y = float(end - start)
 print(y)
 
 #print(f"faster {x/y} times")
-#pprint.pprint(res)
+pprint.pprint(res)
 
 #pprint.pprint(ssc.solve_sudoku(ar))
 
