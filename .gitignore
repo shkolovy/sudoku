@@ -1,0 +1,8 @@
+/.idea
+/venv
+/temp
+/build
+__pycache__/
+*.py[cod]
+*.c
+*.so
